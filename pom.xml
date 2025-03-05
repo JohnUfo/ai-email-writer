@@ -8,11 +8,11 @@
         <version>3.4.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>uz.muydinovs</groupId>
-    <artifactId>ai-email-writer</artifactId>
+    <groupId>com.email</groupId>
+    <artifactId>ai-email-reply</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ai-email-writer</name>
-    <description>ai-email-writer</description>
+    <name>ai-email-reply</name>
+    <description>ai-email-reply</description>
     <url/>
     <licenses>
         <license/>
@@ -43,6 +43,15 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-test</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>
