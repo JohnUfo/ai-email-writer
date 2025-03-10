@@ -1,12 +1,12 @@
 # AI Email Writer - Backend
 
-This is the backend for the AI-powered Email Reply Generator. It is built with Spring Boot and integrates with Google's Gemini AI model to generate email replies based on given content and tone. Additionally, it leverages AWS S3 for storage and AWS EC2 for deployment.
+This is the backend for the AI-powered Email Reply Generator. It is built with Spring Boot and integrates with Google's Gemini AI model to generate email replies based on given content and tone. Additionally, it leverages AWS S3 for storage and AWS Elastic Beanstalk for deployment.
 
 ## Features
 - REST API to generate AI-powered email replies
 - Integration with Google's Gemini AI API
 - AWS S3 for storage
-- Deployment on AWS EC2
+- Deployment on AWS Elastic Beanstalk
 - CORS enabled for frontend integration
 
 ## Technologies Used
@@ -16,7 +16,7 @@ This is the backend for the AI-powered Email Reply Generator. It is built with S
 - Lombok for reduced boilerplate code
 - Maven for dependency management
 - AWS S3 for cloud storage
-- AWS EC2 for hosting
+- AWS Elastic Beanstalk for hosting
 
 ## Installation
 
@@ -44,3 +44,4 @@ To use this backend effectively, you will need the following related projects:
 - Allows users to generate email replies directly from their Gmail inbox using the AI model.
 
 Ensure both the frontend and the extension are properly set up to use this backend API.
+
